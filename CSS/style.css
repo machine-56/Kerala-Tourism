@@ -1,0 +1,83 @@
+@import url(./colour.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+
+body{
+    color: #ffffff;
+}
+
+.shadow-med{
+    box-shadow: 2px 2px 8px var(--med-bg);
+}
+
+#t-black{
+    color: #000000;
+}
+
+
+/* navbar */
+
+.bg-custom{
+    background-color: var(--subtle-bg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.bg-custom-i{
+    background-color: var(--bg-dark);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    .navbar-nav{
+        .nav-link{
+            color: var(--primary-light);
+        }
+        .nav-link.active{
+            color: var(--primary-light);
+            border-bottom: 1px solid var(--primary-light);
+        }
+    } 
+}
+
+#k-icon{
+    width: 120px;
+    height:auto;
+    cursor: pointer;
+}
+
+.collapse{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    padding: 10px 0 ;
+    
+    
+    .navbar-nav{
+        .nav-link{
+            color: #ffffff;
+        }
+    }
+}
+
+
+/* footer */
+.footer-other-main{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary-light);
+    background-color: var(--footer-bg);
+    /* border: 1px solid var(--primary-dark); */
+    box-shadow: 2px 2px 14px var(--med-bg);
+}

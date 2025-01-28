@@ -1,0 +1,37 @@
+@import url(./colour.css);
+
+.faq-main{
+    margin-top: 2rem;
+}
+.QandA-main{
+    margin-top: 2rem;
+}
+.QandA{
+    li{
+        list-style: disc;
+
+        p{
+            font-style: italic;
+        }
+    }
+}
+
+.add-q{
+    position: relative;
+}
+.add-q .btn-cstm{
+    position: absolute;
+    bottom: 10rem;
+    right: 3rem;
+
+    width: 50px;
+    height: 50px;
+    color: var(--primary-dark);
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid var(--accent-light);
+    &:hover{
+        color: var(--accent-dark);
+        border: 1px solid var(--primary-dark);
+    }
+}

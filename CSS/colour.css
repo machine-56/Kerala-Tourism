@@ -1,0 +1,23 @@
+:root {
+    --primary-dark: #2F6A48;      /* Deep Green */
+    --primary-light: #A3D6B1;     /* Soft Mint Green */
+    --accent-light: #FFB81C;      /* Golden Yellow */
+    --accent-dark: #FF6F61;       /* Rich Coral */
+    
+    --bg-dark: #181818e0;         /* Dark Grayish Black */
+    --subtle-bg: #0000000f;       /* Light Blackish Tint */
+    --med-bg: #0000005d;          /* Medium Dark Tint */
+    
+    --highlight: #1B9AAA;         /* Turquoise Blue */
+    --text-primary: #333333;      /* Dark Charcoal */
+    --text-secondary: #6D6D6D;    /* Gray */
+    --card-text: #e9ffd8;         /* Rich Coral*/
+    --border-color: #E1E1E1;      /* Light Gray */
+    --success: #28A745;           /* Fresh Green */
+    --error: #DC3545;             /* Vibrant Red */
+
+    --white:#ffffff;
+    --soft-bg:#fff0db79;
+    --footer-bg: #333333 ;         /* (for footer background) */
+}
+

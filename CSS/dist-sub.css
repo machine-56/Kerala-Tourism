@@ -1,0 +1,21 @@
+@import url(./colour.css);
+
+
+
+.tvm-body{
+    text-align: justify;
+}
+
+top-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.top-img{
+    width: 200px;
+    height: 136px;
+}
