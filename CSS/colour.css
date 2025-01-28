@@ -15,8 +15,9 @@
     --border-color: #E1E1E1;      /* Light Gray */
     --success: #28A745;           /* Fresh Green */
     --error: #DC3545;             /* Vibrant Red */
-
+    
     --white:#ffffff;
+    --dark: #0f1411e8;
     --soft-bg:#fff0db79;
     --footer-bg: #333333 ;         /* (for footer background) */
 }
